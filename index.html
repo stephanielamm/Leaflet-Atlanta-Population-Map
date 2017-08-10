@@ -36,7 +36,10 @@
         <script src="js/leaflet.markercluster.js"></script>
         <script src="data/GeorgiaCounties0.js"></script>
         <script src="data/AtlantaCityLimits1.js"></script>
+        <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
         <script>
+        var pymChild = new pym.Child();
+
         L.ImageOverlay.include({
             getBounds: function () {
                 return this._bounds;
@@ -195,6 +198,7 @@
         };
         title.addTo(map);
         setBounds();
+          pym.sendHeight();
         </script>
     </body>
 </html>
