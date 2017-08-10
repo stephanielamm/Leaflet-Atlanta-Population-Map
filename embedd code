@@ -1,0 +1,7 @@
+<h2>Atlanta's Population Growth</h2>
+<div id="sl-arc-pop"></div>
+<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+<script>
+    var pymParent = new pym.Parent('sl-arc-pop', 'https://s3.amazonaws.com/ajcnewsapps/2017/arc-population-map/index.html#9/33.8613/-84.2857', {});
+</script>
+<b>Population numbers from The Atlanta Regional Commission. By Stephanie Lamm/The Atlanta Journal-Constitution.</b>
